@@ -1,0 +1,366 @@
+
+
+#home_mid_text h1{
+   
+}
+.mide_text{
+    width: 40%;
+}
+/* #home_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+}
+#home_box .box{
+    width: auto;
+    height: auto;
+    padding:2%;
+    background-color: white;
+    box-shadow: -6px 1px 8px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+#home_box .box:hover{
+    transform: scaleY(1.1);
+    transition: transform .2s;
+    
+}
+#home_box .box li{
+    color: rgb(40, 134, 221);
+    font-size: 25px;
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+#home_box .box p{
+    text-align: left;
+} */
+#home_box{
+    
+}
+#home_box>div{
+    padding: 2%;
+    border: 2px solid #2487ce2d;
+    background-color: rgb(255, 255, 255);
+    transition: 1;
+}
+#home_box>div:hover{
+    transition: 1;
+    transform: scale(1.1);
+}
+#home_box>div:hover .h4{
+    color: #2487CE;
+}
+#home_box>div>li{
+    list-style-type: none;
+}
+#home_box>div>li>i{
+    color: #2487CE;
+    font-size: 35px;
+    
+}
+#home_box>div>h4{
+    margin-top: 5px;
+}
+#home_box>div>p{
+    text-align: justify;
+}
+
+/* home end */
+
+#about{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+#about li{
+    margin-top: 3px;
+    list-style-type: none;
+}
+#counter{
+    padding: 3%;
+    background-color: rgba(197, 232, 252, 0.596);
+    font-family: 'Raleway', sans-serif;
+}
+#counter li{
+
+    font-size: 20px;
+    list-style-type: none;
+}
+/* counter end */
+#about_video{
+    text-align: justify;
+}
+#about_video li{
+    list-style-type: none;
+}
+#about_video{
+    position: relative;
+}
+
+.li2{
+    position: absolute;
+    list-style-type: none;
+    margin-top: -50%;
+    margin-left: 40%;
+    background-color: rgba(255, 255, 255, 0.363);
+    padding: 2%;
+    border-radius: 50%;
+
+}
+.venobox i{
+    color: rgb(2, 63, 196);
+   font-size: 80px;
+}
+@media (max-width: 761px) {
+    .li2{
+        margin-top: -45%;
+        margin-left: 40%;
+    }
+    .venobox i{
+        color: rgb(2, 63, 196);
+       font-size: 40px;
+    }
+}
+
+#about_video #about_video_col_2 li i{
+    font-size: 20px;
+}
+/* end */
+#client {
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(167, 173, 173, 0.199);
+}
+#client img{
+    width:10%;
+    color: black;
+}
+/* end */
+
+
+
+.owl-carousel .item .top{
+    width: 100%;
+    height: 300px;
+    padding: 5%;
+    text-align: justify;
+    background-color: rgba(168, 172, 172, 0.192);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 59% 75%, 49% 84%, 38% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 59% 75%, 49% 84%, 38% 75%, 0% 75%);
+}
+.owl-carousel .item i{
+    color:rgba(116, 116, 116, 0.363);
+    padding: 2%;
+    font-size: 30px;
+}
+.owl-carousel .item{
+    padding: 5%;
+}
+.owl-carousel .item .down img{ 
+    width: 30%;
+    border-radius: 50%;
+    justify-items: center;
+    margin: auto;
+}
+/*owl-carousel end */
+#services{
+    background-color: rgba(157, 235, 235, 0.192);
+}
+#grid{
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-content: center;
+}
+#grid .col-sm-5{
+    padding: 2%;
+    background-color: white;
+}
+#grid .col-sm-5 i{
+    font-size: 40px;
+    margin-left: 45%;
+}
+#grid .col-sm-5 h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#grid .col-sm-5 p{
+    text-align: justify;
+}
+    
+    #card_1 i{
+    color: rgb(6, 189, 235);
+    }
+    #card_2 i{
+        color: orange;
+    }
+    #card_3 i{
+        color: red;
+    }
+    #card_4 i{
+        color: rgba(255, 174, 0, 0.747);
+    }
+    #card_5 i{
+        color: red;
+    }
+    #card_6 i{
+        color: rgb(0, 247, 255);
+    } 
+  .gri_box {
+    color: #242424;
+    background-color: #fffefe;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 5%;
+  }
+  .gri_box i{
+    font-size: 30px;
+  }
+  @media (max-width: 800px){
+    .gri_box{
+        width: 50%;
+    }
+  }
+
+
+
+/* services end */
+#call_to_action{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(51, 149, 240);
+}
+#call_to_action .btn{
+    width: 20%;
+    margin: auto;
+}
+/* end */
+  /* protfolio */
+       
+ .mixitupbutton{
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 2%;
+    
+ }
+ .mixitupbutton button{
+    width: auto;
+    height: auto;
+    padding: 1%;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+ }
+ .mixitup_box .mix {
+    color: #053aac;
+    position: relative;
+ }
+ .mixbox{
+    width: 100%;
+    height: 100%;
+    color: rgb(252, 252, 252);
+    position: absolute;
+    margin-top: -50%;
+    background: transparent;
+    z-index: -1;
+ }
+.mixbox i{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.max:hover .mixbox{
+    color: red;
+}
+
+/* protfolio end */
+
+#tame{
+    padding: 2%;
+    background-color: rgba(127, 142, 146, 0.131);
+}
+#tame .col-xs-6{
+    width: 20%;
+    margin: 5%;
+    
+}
+/* tame end */
+
+#price ul li{
+    font-size: 20px;
+    margin-top: 5px;
+   list-style-type: none;
+}
+/* #price_box{
+    width: 30%;
+    height: auto;
+    padding: 5%;
+    margin: auto;
+} */
+#price .box2{
+    color: white;
+    background-color: rgb(40, 150, 241);
+}
+#price_box .btn{
+    width: auto;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+/* END */
+
+#con_left ul li i{
+    font-size:30px;
+    padding: 2%;
+    color: rgb(254, 254, 255);
+    background-color: rgba(4, 70, 131, 0.74);
+}
+#con_left ul li span{
+    padding-left: 1%;
+    font-size: 25px;
+}
+#con_left ul li p{
+    margin-left: 14%;
+}
+/* contact end */
+#footer_icon{
+    background: rgba(73, 73, 73, 0.075);
+}
+#footer_icon #font span{
+    color: white;
+    background-color: #053aac;
+}
+#footer_icon i{
+   
+    font-size: 20px;
+}
+
+
+
+
+/* back-to-top */
+.back-to-top {
+    position: fixed;
+    bottom: 5px;
+    left: 90%;
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    
+   }
+   .back-to-top i{
+    font-size: 40px;
+   }
+   .back-to-top:hover{
+    opacity: 0.7;
+   }
+
+
+
+
